@@ -4,9 +4,12 @@
   {% include my_head.html %}
 
 <body>
+  <div class="container-fluid">
+    {% include my_header.html %}
+    {% include my_info.html %}
+    {{ content }}
 
-  {{ content }}
-
+  </div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/jakobmattsson-jquery-elastic/jquery.elastic.source.js">
