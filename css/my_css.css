@@ -7,7 +7,7 @@ body {
   margin-bottom: 2em;
 }
 
-.logo h1 {
+h1, h2 {
   letter-spacing: 0.115385em;
   text-transform: uppercase;
   color: gray;
@@ -16,14 +16,18 @@ body {
 .nav a {
   color: black;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .content {
 	margin-top: 4em;
-	font-size: 18px;
-	color: hsl(0, 0%, 27%);
-	font-family: Georgia, serif;
-	line-height: 1.8em;
+}
+
+p {
+  font-family: Georgia, serif;
+  line-height: 1.8em;
+  font-size: 18px;
+  color: hsl(0, 0%, 27%);
 }
 
 .content img {
@@ -32,6 +36,16 @@ body {
 }
 
 .footer {
-  margin: 4em 0;
+  margin: 15em 0 5em 0em;
   text-align: center;
+}
+
+.centerBlock {
+  margin: 0 auto;
+  display: table;
+}
+
+.footer p {
+  font-size: 14px;
+  font-family: Helvetica;
 }
