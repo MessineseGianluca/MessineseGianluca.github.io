@@ -7,7 +7,7 @@ body {
   margin-bottom: 2em;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.115385em;
   text-transform: uppercase;
   color: gray;
