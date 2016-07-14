@@ -1,0 +1,32 @@
+---
+layout: my_default
+title: Blog
+---
+
+<h4> Posts </h4>
+<div class="list-group">
+  <a href="#" class="list-group-item disabled">
+    General
+  </a>
+  {% for post in site.categories.general %}
+    <a href="#" class="list-group-item">
+      <div>
+        <h6>{{ post.title }}</h6>
+        <p class="description">{{ post.meta }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item disabled">
+    General
+  </a>
+  {% for post in site.categories.computer-science %}
+    <a href="#" class="list-group-item">
+      <div>
+        <h6>{{ post.title }}</h6>
+        <p class="description">{{ post.meta }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
