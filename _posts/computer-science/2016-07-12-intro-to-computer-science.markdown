@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: my_post
 title: Intro to computer science 
 meta: This post contain basic notions about computer science 
 date: 2016-07-12 11:30:0 +0100
 categories: computer-science
+author: Gianluca Messinese
 ---
 Sed purus metus, sollicitudin non enim condimentum, faucibus dapibus sem. Cras sagittis nisl vitae ultrices pretium. Nulla facilisis tincidunt odio et porta. Nam consequat elit erat, ac sollicitudin odio pulvinar vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean hendrerit est ligula, ut porta massa hendrerit et. Quisque sit amet diam ligula.
 
