@@ -67,3 +67,39 @@ p {
 .post-text {
   text-align: justify;
 }
+
+@media (max-width: 760px) {
+  
+  .logo {
+    margin-bottom: 4em;
+  }
+
+  .nav > li > a {
+    padding: 10px 10px;
+    letter-spacing: normal;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  .logo {
+    margin-bottom: 4em;
+
+  }
+   
+  .nav > li {
+    float: none;
+  }
+   
+  .nav > li > a {
+    padding: 10px 100px;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  
+  .content img {
+    float: none;
+    margin: 0 0 40px 0;
+    width: 100%;
+  }
+}
