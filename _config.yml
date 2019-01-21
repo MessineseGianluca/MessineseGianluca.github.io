@@ -9,7 +9,7 @@
 title: Messinese Gianluca's website
 email: gianluca.messi1@gmail.com					
 description: > # this means to ignore newlines until "baseurl:"
-  Messinese Gianluca, computer science italian student from Barletta. 
+  Messinese Gianluca, computer science student and software engineer intern at Hubspot. 
 baseurl: /
 url: "https://messinesegianluca.github.io" # the base hostname & protocol for your site
 github_username:  MessineseGianluca
@@ -18,3 +18,7 @@ github_username:  MessineseGianluca
 markdown: kramdown
 permalink: pretty
 author: Messinese Gianluca 
+
+# Google Analytics
+google_analytics: UA-132868909-1
+
