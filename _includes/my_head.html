@@ -8,7 +8,11 @@
   <meta name="keywords" 
         content="gianluca messinese, website, computer science, 
                  student, barletta, italy" />     
-
+  <!-- Google Analitics work only in a production environment -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+	
   <!-- SOCIAL META DATA -->
   <meta property="og:title" content="Gianluca Messinese" />
   <meta property="og:type" content="article" />
